@@ -19,18 +19,20 @@ Mini-Facebook est une implémentation en Bash d'un réseau social minimaliste pe
 ```bash
 git clone https://github.com/nptsp/mini-facebook.git
 cd mini-facebook
-
+```
 ### 3. rendre le script exécutable
 ```bash
 chmod u+x *.sh
+```
 
 ### 4. Démarrer le serveur (dans un terminal)
 ```bash
 ./mini-facebook.sh
+```
 
  ### 5. Démarrer dans un autre terminal
 ```bash
 ./client.sh
-
+```
 
 
