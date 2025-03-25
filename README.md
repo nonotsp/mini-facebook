@@ -1,36 +1,36 @@
-# Mini-Facebook
+# Mini-Facebook (Bash
 
 ## Description
 
-Mini-Facebook est une implémentation en Bash d'un réseau social minimaliste permettant aux utilisateurs de créer un compte, d'ajouter des amis, de publier des messages et de consulter leur mur. Ce projet illustre les concepts de synchronisation des processus et de communication interprocessus via des FIFOs nommés.
+Mini-Facebook is a minimalist social network implemented in **Bash**.  
+It allows users to create an account, add friends, post messages, and view their wall.  
+This project illustrates **process synchronization** and **interprocess communication** using **named FIFOs**.
 
----
+## Installation and Execution
+### 1. Prerequisites
 
-## Installation et Exécution
+- Unix-based operating system (Linux or macOS)
+- Bash installed
+- Terminal access
 
-### 1. Prérequis
-
-- Système d'exploitation basé sur Unix (Linux ou macOS)
-- Bash installé
-- Terminal
-
-### 2. Cloner le projet
+### 2. Clone the project
+#
 
 ```bash
 git clone https://github.com/nptsp/mini-facebook.git
 cd mini-facebook
 ```
-### 3. rendre le script exécutable
+### 3. Make scripts executable
 ```bash
 chmod u+x *.sh
 ```
 
-### 4. Démarrer le serveur (dans un terminal)
+### 4.  Start the server (in one terminal)
 ```bash
 ./mini-facebook.sh
 ```
 
- ### 5. Démarrer dans un autre terminal
+ ### 5. Start a client (in another terminal)
 ```bash
 ./client.sh
 ```
